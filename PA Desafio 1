@@ -1,0 +1,35 @@
+# Ejercicio 1
+
+lista = [1,2,3,4,5]
+
+conteo = 0
+suma = 0
+for numeros in lista:
+    conteo += 1
+    suma += numeros
+
+promedio = suma /conteo
+
+print(f"Cantidad de elementos: {conteo}")
+print(f"La suma total es: {suma}")
+print(f"El promedio es: {promedio}")
+
+# Ejercicio 2
+
+numero = 5
+multiplicador = 1
+resultado = 0
+
+while multiplicador <= 10: 
+    multiplicacion = numero * multiplicador
+    print(multiplicacion)
+    multiplicador += 1
+
+# Ejercicio 3
+
+lista1 = [1,2,3,4,5]
+lista2 = [3,4,8,9,10]
+
+for i in lista1:
+    if i not in lista2:
+        print(i)
